@@ -19,6 +19,12 @@ public class User {
         this.address = address;
         this.totalMoney = totalMoney;
     }
+    public User(String name, String userName, String password, String address) {
+        this.name = name;
+        this.userName = userName;
+        this.password = password;
+        this.address = address;
+    }
 
     public int getUserId() {
         return userId;
