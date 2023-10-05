@@ -1,6 +1,6 @@
 package model;
 
-public class user {
+public class User {
     private int userId;
     private String name;
     private String userName;
@@ -8,16 +8,22 @@ public class user {
     private String address;
     private float totalMoney;
 
-    public user() {
+    public User() {
     }
 
-    public user(int userId, String name, String userName, String password, String address, float totalMoney) {
+    public User(int userId, String name, String userName, String password, String address, float totalMoney) {
         this.userId = userId;
         this.name = name;
         this.userName = userName;
         this.password = password;
         this.address = address;
         this.totalMoney = totalMoney;
+    }
+    public User(String name, String userName, String password, String address) {
+        this.name = name;
+        this.userName = userName;
+        this.password = password;
+        this.address = address;
     }
 
     public int getUserId() {

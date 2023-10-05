@@ -1,13 +1,13 @@
 package model;
 
-public class category {
+public class Category {
     private int categoryID;
     private String name;
 
-    public category() {
+    public Category() {
     }
 
-    public category(int idCategory, String name) {
+    public Category(int idCategory, String name) {
         this.categoryID = idCategory;
         this.name = name;
     }

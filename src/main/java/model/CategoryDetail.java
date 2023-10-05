@@ -1,15 +1,15 @@
 package model;
 
-public class categoryDetail {
+public class CategoryDetail {
     private int categoryDetailId;
     private String name;
     private Boolean status;
     private int categoryId;
 
-    public categoryDetail() {
+    public CategoryDetail() {
     }
 
-    public categoryDetail(int categoryDetailId, String name, Boolean status, int categoryId) {
+    public CategoryDetail(int categoryDetailId, String name, Boolean status, int categoryId) {
         this.categoryDetailId = categoryDetailId;
         this.name = name;
         this.status = status;
