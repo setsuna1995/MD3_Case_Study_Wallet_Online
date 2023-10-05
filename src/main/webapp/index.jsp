@@ -7,5 +7,6 @@
 <body>
 <a href="user-servlet?action=register">Register</a>
 <a href="user-servlet?action=login">login</a>
+<a href="category-servlet">login</a>
 </body>
 </html>
